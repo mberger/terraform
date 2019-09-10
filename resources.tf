@@ -1,7 +1,7 @@
 resource "google_compute_network" "our_dev_network" {
     name = "devnetwork"
     project = "berger-lab-1"
-    auto_create_subnetworks = true
+    auto_create_subnetworks = false
   
 }
 
